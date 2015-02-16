@@ -1,3 +1,120 @@
-html, body {
-  margin: 20px;
+
+body {
+  background: url(https://unsplash.imgix.net/uploads/14131528928453585b6dc/829d24cf?fit=crop&fm=jpg&h=700&q=75&w=1050) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-opacity: 0.5;
 }
+
+html, body {
+   margin: 20px;
+ }
+
+ a:link {
+   color: black; text-decoration: none;
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   font-size: 1.25em;
+ }
+ a:active {
+   color: black; text-decoration: underline;
+ }
+ a:visited {
+   color: black; text-decoration: underline;
+ }
+ a:hover {
+   color: grey; text-decoration: none;
+ }
+
+
+#headerButtons ul li{
+  display: inline;
+  font-size: 1.25em;
+  position: center;
+  padding: 10px;
+}
+
+nav {
+  text-align: center;
+}
+
+
+footer {
+  clear: both;
+}
+
+h6 {
+  color: black;
+  font-size: 1em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+  position: inherit;
+}
+
+.containerHome{
+  border: 2px solid black;
+  background: white;
+  opacity: 0.5;
+  padding: 80px;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-align: center;
+  font-family: 'lobster', cursive;
+  font-size: x-large;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.containerAbout {
+  margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background: white;
+    opacity: 0.5;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+}
+
+.containerContactme {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5%;
+  background-color: white;
+  opacity: 0.5;
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.25em;
+  border: 2px solid black;
+
+}
+
+
+textarea {
+    height: 20vh;
+    background-color: rgba(189,196,167, 0.25);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.25em;
+    color: white;
+    margin: 5px;
+
+  }
+
+
+input {
+    background-color: rgba(189,196,167, 0.25);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.25em;
+    color: white;
+    margin: 5px;
+  }
+
+/* .form-control {
+  margin-bottom: 4%;
+  width: 70px;
+  color: white;
+} */
