@@ -8,11 +8,11 @@ export default Ember.Controller.extend({
 
       // debugger;
 
-      var message = this.store.createRecord('message', {
+   message = this.store.createRecord('message', {
         full_name: full_name,
         email: email,
         message: message
-      }); 
+      });
 
       message.save().then(function(){
           this.set('postName', '');
