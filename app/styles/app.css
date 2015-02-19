@@ -98,7 +98,7 @@ img {
       margin-bottom: auto;
       color: white;
       font-family: 'Yanone Kaffeesatz', sans-serif;
-      font-size: 1.25em;
+      font-size: .75em;
 
 }
 
@@ -148,7 +148,7 @@ textarea {
 input {
     background-color: rgba(107,127,125, 0.25);
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 1.25em;
+    font-size: .75em;
     color: white;
     margin: 5px;
   }
@@ -164,7 +164,7 @@ button{
   float: center;
   width: 30%;
   margin-left: 330px;
-  font-size: 1.50em;
+  font-size: .75em;
 }
 
 .centerText li {
@@ -184,5 +184,5 @@ button{
     margin-bottom: 120px;
     color: white;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 1.25em;
+    font-size: .75em;
 }
