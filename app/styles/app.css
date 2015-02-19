@@ -161,9 +161,8 @@ button{
 
 .centerText {
   text-align: left;
-  float: center;
+  float: left;
   width: 30%;
-  margin-left: 330px;
   font-size: .75em;
 }
 
