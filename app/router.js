@@ -9,7 +9,7 @@ Router.map(function() {
   this.route("home", { path: '/' });
   this.route("offerings");
   this.route("about");
-  this.route("contact");
+  this.resource("message");
   this.route("projects");
 });
 

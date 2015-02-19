@@ -1,0 +1,43 @@
+<div class="containerContactme">
+  <form>
+    <p>Contact Me</p>
+    <div class="row1">
+      <div class="col-md-8 col-md-offset-2">
+        {{input class="form-control" value=postName placeholder="Full Name"}}
+      </div>
+    </div>
+
+    <div class="row1">
+      <div class="col-md-8 col-md-offset-2">
+        {{input class="form-control" value=postEmail placeholder="Email"}}
+      </div>
+    </div>
+
+    <div class="row1">
+      <div class="col-md-8 col-md-offset-2">
+        {{textarea class="form-control" value=postMessage placeholder="Write your message here..."}}
+      </div>
+    </div>
+    <div class="row1">
+      <div class="col-md-2 col-md-offset-2">
+        <button class="btn btn-default" {{action 'sendEmail'}}>Send Message</save>
+        </div>
+      </div>
+    </form>
+
+  <div class="col-md-4">
+
+  </div>
+    <p>Don't be a stranger.</p>
+
+    <p>I'm always looking to work with creative and passionate people, so let me know how I can help you.
+      In the meantime, follow me on twitter. <a href="https://twitter.com/redrayofsun"><i class="fa fa-twitter"></i></a>
+    </p>
+
+  </div>
+
+
+
+
+
+  {{outlet}}
