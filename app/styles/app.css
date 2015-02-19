@@ -116,6 +116,19 @@ img {
   border: 2px solid black;
 }
 
+.containerContactme {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  background: rgba(37,41,28, 0.75);
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.25em;
+  border: 2px solid black;
+}
+
 .containerContactme p {
   margin: 10px;
   color: white;
@@ -143,4 +156,33 @@ input {
 button{
   margin: 10px;
 
+}
+
+
+.centerText {
+  text-align: left;
+  float: center;
+  width: 30%;
+  margin-left: 330px;
+  font-size: 1.50em;
+}
+
+.centerText li {
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.containerProjects {
+  margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background: rgba(37,41,28, 0.75);
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.25em;
 }
