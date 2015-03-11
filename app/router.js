@@ -11,6 +11,7 @@ Router.map(function() {
   this.route("about");
   this.resource("message");
   this.route("projects");
+  this.route('formalres');
 });
 
 export default Router;
