@@ -6,7 +6,6 @@ export default Ember.Controller.extend({
       var email = this.get('postEmail');
       var message = this.get('postMessage');
 
-      // debugger;
 
    message = this.store.createRecord('message', {
         full_name: full_name,
