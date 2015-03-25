@@ -1,7 +1,7 @@
 # Resume
 
 This application is built with an Ember-cli front-end and a Rails back-end.
-This app also uses a mailer (through a Sendgrid API) which sends out emails to users who fill-out a contact
+This app also uses a mailer (using SendGrid's Services) which sends out emails to users who fill-out a contact
 form.
 
 ## Prerequisites
@@ -41,7 +41,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build --environment production` (production)
 
 ### Deploying
-This app is deployed on heroku and can be visited at: https://denise-mccoy-resume.herokuapp.com/
+This app is deployed on heroku and can be visited at: https://denise-mccoy-resume.herokuapp.com/er s
 
 
 ## Further Reading / Useful Links
