@@ -138,6 +138,7 @@ textarea {
     color: white;
     margin: 5px;
     text-align: center;
+    width: 60%;
 
   }
 
@@ -149,6 +150,7 @@ input {
     color: white;
     margin: 5px;
     text-align: center;
+    width: 60%;
   }
 
 button{
