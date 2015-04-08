@@ -114,8 +114,8 @@ img {
   width: 60%;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  margin-top: auto;
+  margin-bottom: auto;
   background: rgba(107,127,125, 0.25);
   text-align: center;
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -127,6 +127,7 @@ img {
 .containerContactme p {
   margin: 10px;
   color: white;
+
 }
 
 textarea {
