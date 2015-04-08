@@ -75,8 +75,8 @@ h6 {
   margin-left: auto;
     margin-right: auto;
     width: 70%;
-    background: rgba(37,41,28, 0.75);
-    border: 2px solid black;
+    background: rgba(107,127,125, 0.25);
+    border: 2px solid white;
     padding: 10px;
     margin-top: auto;
     margin-bottom: auto;
@@ -97,8 +97,8 @@ img {
     margin-left: auto;
       margin-right: auto;
       width: 70%;
-      background: rgba(37,41,28, 0.75);
-      border: 2px solid black;
+      background: rgba(107,127,125, 0.25);
+      border: 2px solid white;
       padding: 10px;
       margin-top: auto;
       margin-bottom: auto;
@@ -115,11 +115,11 @@ img {
   margin-left: auto;
   margin-top: 120px;
   margin-bottom: 120px;
-  background: rgba(37,41,28, 0.75);
+  background: rgba(107,127,125, 0.25);
   text-align: center;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 1.25em;
-  border: 2px solid black;
+  border: 2px solid white;
 }
 
 
@@ -170,14 +170,14 @@ button{
 }
 
 .containerProjects {
-  margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     width: 70%;
-    background: rgba(37,41,28, 0.75);
-    border: 2px solid black;
+    background: rgba(107,127,125, 0.25);
+    border: 2px solid white;
     padding: 10px;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    margin-top: auto;
+    margin-bottom: auto;
     color: white;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 1.25em;
@@ -186,6 +186,6 @@ button{
 .resume iframe {
   margin-left: 255px;
   margin-top: 30px;
-  margin-bottom: 30px;t
+  margin-bottom: 30px;
 
 }
