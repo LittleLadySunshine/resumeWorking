@@ -1,12 +1,14 @@
 
 body {
-  background: url(https://unsplash.imgix.net/uploads/14131528928453585b6dc/829d24cf?fit=crop&fm=jpg&h=700&q=75&w=1050) no-repeat center center fixed;
+  background: url(http://cdn.morguefile.com/imageData/public/files/i/Intoxicologist/04/l/1427925484z6wpt.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-opacity: 0.5;
 }
+
+https://unsplash.imgix.net/uploads/14131528928453585b6dc/829d24cf?fit=crop&fm=jpg&h=700&q=75&w=1050
 
 html, body {
    margin: 20px;
@@ -56,7 +58,7 @@ h6 {
 }
 
 .containerHome{
-  border: 2px solid black;
+  border: 2px solid white;
   background: rgba(107,127,125, 0.25);
   padding: 80px;
   margin-left: 120px;
@@ -66,6 +68,7 @@ h6 {
   font-size: x-large;
   margin-top: 120px;
   margin-bottom: 120px;
+  color: white;
 }
 
 .containerAbout {
