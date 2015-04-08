@@ -142,7 +142,6 @@ textarea {
 
   }
 
-
 input {
     background-color: rgba(107,127,125, 0.25);
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -151,7 +150,7 @@ input {
     margin: 5px;
     text-align: center;
     width: 60%;
-  }
+  } 
 
 button{
   margin: 10px;
