@@ -1,6 +1,10 @@
 import Ember from 'ember';
 export default Ember.Controller.extend({
   actions: {
+    reLoad: function(){
+      window.location.reload(true);
+    },
+
     sendEmail: function(){
       var full_name = this.get('postName');
       var email = this.get('postEmail');
