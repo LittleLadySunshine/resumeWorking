@@ -202,7 +202,7 @@ button{
     margin:0
   }
 
-  .containerAbout, .containerProjects {
+  .containerAbout, .containerProjects, .containerOfferings .containerContactme {
    width: 95%;
    padding: 2.5%;
    font-size: 1.7em;
@@ -218,6 +218,16 @@ button{
     margin-left: 0px;
     display: list-item;
   }
+
+  .containerProjects ul li {
+    list-style: none;
+
+  }
+
+    .containerProjects ul {
+      padding: 0px;
+    }
+
 
 
 }
