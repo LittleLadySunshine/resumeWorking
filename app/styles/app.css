@@ -95,6 +95,8 @@ img {
     float: right;
     border: 2px solid grey;
     border-radius: 25%;
+    height: 150px;
+    width: 150px;
 
   }
 
@@ -164,7 +166,6 @@ button{
 
 .centerText {
   text-align: left;
-  float: center;
   width: 30%;
   margin-left: 200px;
   font-size: 1.25em;
@@ -211,6 +212,7 @@ button{
   .headShot img {
     width: 50% !important;
     height: 50% !important;
+    margin: 0 0 10px 10px;
   }
 
 }
