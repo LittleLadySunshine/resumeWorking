@@ -9,6 +9,8 @@ body {
 
 }
 
+
+
 html, body {
    margin: 20px;
  }
@@ -146,6 +148,7 @@ textarea {
     text-align: center;
     width: 60%;
 
+
   }
 
 input {
@@ -158,6 +161,21 @@ input {
     width: 60%;
   }
 
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+   color: white;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+   color: white;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+   color: white;
+}
+
+input:-ms-input-placeholder {
+   color: white;
+}
 button{
   margin: 10px;
 
@@ -205,6 +223,8 @@ button{
   display: none;
 }
 
+
+
 @media  (max-width: 740px)  {
   .containerHome {
     margin:0
@@ -241,6 +261,14 @@ button{
   }
 
   .mobileResume {
+    display: block;
+    margin: 0px auto;
+  }
+
+  .mobileResume a {
+    margin-top: 100px;
+    text-align: center;
+    width: 100px;
     display: block;
   }
 
