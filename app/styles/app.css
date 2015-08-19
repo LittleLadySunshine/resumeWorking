@@ -268,7 +268,7 @@ button{
   .mobileResume a {
     margin-top: 100px;
     text-align: center;
-    width: 100px;
+    width: 100%;
     display: block;
   }
 
