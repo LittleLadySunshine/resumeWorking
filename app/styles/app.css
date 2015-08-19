@@ -202,7 +202,7 @@ button{
     margin:0
   }
 
-  .containerAbout {
+  .containerAbout, .containerProjects {
    width: 95%;
    padding: 2.5%;
    font-size: 1.7em;
@@ -214,10 +214,11 @@ button{
     margin: 0 0 10px 10px;
   }
 
-  .centerText {
+  .centerText ul li {
     margin-left: 0px;
-    
+    display: list-item;
   }
+
 
 }
 
