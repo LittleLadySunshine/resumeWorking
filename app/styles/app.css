@@ -198,7 +198,14 @@ button{
 }
 
 @media  (max-width: 740px)  {
-  .containerHome { margin:0}
+  .containerHome {
+    margin:0
+  }
+  
+  .containerAbout {
+   width: 95%;
+   padding: 2.5%;
+  }
 }
 
 /* #header{
