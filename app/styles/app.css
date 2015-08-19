@@ -201,11 +201,16 @@ button{
   .containerHome {
     margin:0
   }
-  
+
   .containerAbout {
    width: 95%;
    padding: 2.5%;
   }
+
+  .headShot img {
+    width: 50% !important; 
+  }
+
 }
 
 /* #header{
