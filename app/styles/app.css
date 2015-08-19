@@ -34,6 +34,13 @@ html, body {
    text-decoration: underline;
  }
 
+ button.btn.btn-default {
+    border: 1px solid #FFF;
+    background: rgba(107,127,125,.25);
+    text-transform: uppercase;
+    color: #FFF;
+    padding: 12px 40px;
+ }
 
 #headerButtons ul li{
   display: inline;
