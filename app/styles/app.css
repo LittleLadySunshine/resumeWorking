@@ -40,6 +40,10 @@ html, body {
   padding: 10px;
 }
 
+#headerButtons ul {
+  padding: 0;
+}
+
 nav {
   text-align: center;
 }
