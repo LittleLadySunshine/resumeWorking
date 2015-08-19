@@ -42,6 +42,13 @@ html, body {
     padding: 12px 40px;
  }
 
+  button.btn.btn-default:hover {
+    color: white; text-decoration: none;
+    text-decoration: underline;
+    background: transparent;
+
+  }
+
 #headerButtons ul li{
   display: inline;
   font-size: 1.25em;
